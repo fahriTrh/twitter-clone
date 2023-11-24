@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+body {
+    @apply bg-black text-neutral-100;
+}
+
+* {
+    @apply scrollbar-hide
+}
+
+.sticky {
+    @apply bg-black/60 backdrop-blur-md
+}
